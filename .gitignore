@@ -1,7 +1,5 @@
 Data/*
 dataframe/
-
-
 .ipynb_checkpoints/
 .venv/
 !Data/rink.png
