@@ -83,7 +83,6 @@ def calculate_shot_distance(coord_str):
 def distancegoal_relationship(dfs, year):
     """
     Visualise la relation entre la distance du tir et la probabilité qu'il devienne un but.
-    dfs est une liste de DataFrames pour chaque saison.
 
     :param dfs: Liste des DataFrames pour chaque saison.
     :param year: L'année pour laquelle on veut analyser la relation distance-but.
@@ -115,8 +114,70 @@ def distancegoal_relationship(dfs, year):
     plt.show()
 
 
-def distance_goalpercentage (dfs, year):
+def distancegoal_relationship_binned(dfs, year):
+    """
+    Visualise la probabilité de but en fonction de la distance des tirs, en pieds, pour une saison donnée.
+    Regroupe les distances de tir en intervalles fixes 
+    Calcule le nombre total de tirs et de buts dans chaque intervalle, puis détermine la probabilité de but pour chaque groupe.
 
+    
+    :param dfs: Liste des DataFrames pour chaque saison.
+    :param year: L'année pour laquelle on veut visualiser la probabilité de but.
+    """
+    # Récupérer les données pour l'année spécifiée
+    df = dfs[year]
+
+    # Calculer la distance des tirs en utilisant la fonction calculate_shot_distance
+    df['Shot Distance'] = df['Coordinates'].apply(calculate_shot_distance)
+
+    # Supprimer les lignes avec des distances manquantes
+    df = df.dropna(subset=['Shot Distance'])
+
+    # Marquer les buts
+    df['Goal'] = df['Type'] == 'goal'
+
+    # Créer un nouveau DataFrame pour stocker les distances binned et les probabilités de but
+    distance_values = np.arange(0, 105, 5)  # Incréments de 5 pieds
+    goal_prob_df = pd.DataFrame(distance_values, columns=['Distance'])
+
+    # Calculer les tirs et les buts pour chaque intervalle de distance
+    goal_prob_df['Total Shots'] = goal_prob_df['Distance'].apply(
+        lambda x: df[(df['Shot Distance'] >= x) & (df['Shot Distance'] < x + 5)].shape[0]
+    )
+    goal_prob_df['Total Goals'] = goal_prob_df['Distance'].apply(
+        lambda x: df[(df['Shot Distance'] >= x) & (df['Shot Distance'] < x + 5) & (df['Goal'])].shape[0]
+    )
+
+    # Calculer la probabilité de but
+    goal_prob_df['Goal Probability'] = goal_prob_df['Total Goals'] / goal_prob_df['Total Shots']
+
+    # Visualiser les résultats
+    plt.figure(figsize=(12, 8))
+    sns.lineplot(data=goal_prob_df, x='Distance', y='Goal Probability', marker='o', label=f'Saison {year}', color='blue')
+
+    plt.title(f'Probability de but en fonction de la distance (ft) - Saison {year}', fontsize=16)
+    plt.xlabel('Distance (ft)', fontsize=14)
+    plt.ylabel('Probabilité de but', fontsize=14)
+
+    plt.xticks(np.arange(0, 105, 10), fontsize=12)
+    plt.yticks(fontsize=12)
+    plt.ylim(0, 1)
+    plt.grid(True)
+
+    plt.legend(title='Saison', fontsize=12)
+    plt.tight_layout()
+    plt.show()
+
+
+def distance_goalpercentage(dfs, year):
+    """
+    Visualise la relation entre la distance du tir, le type de tir, et la probabilité de but
+    en créant une heatmap. dfs est une liste de DataFrames pour chaque saison.
+
+    :param dfs: Liste des DataFrames pour chaque saison.
+    :param year: L'année pour laquelle on veut analyser la relation distance-but et type de tir.
+    """
+    
     # Récupérer les données pour l'année spécifiée
     df = dfs[year]
     
@@ -140,7 +201,7 @@ def distance_goalpercentage (dfs, year):
     # Remplacer les valeurs manquantes dans la table pivot (par exemple, avec 0 ou NaN)
     shot_distance_pivot = shot_distance_pivot.fillna(0)
 
-    # Tracer la heatmap 
+    # Tracer la heatmap
     plt.figure(figsize=(10, 6))
     sns.heatmap(shot_distance_pivot, cmap='Reds', annot=False, linewidths=0.5)
 
