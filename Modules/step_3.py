@@ -97,7 +97,6 @@ def create_dataframes(year_list, data):
     :param data: Une liste contenant les données de chaque jeu.
     """
 
-    
     # Créer un dossier pour sauvegarder les DataFrames s'il n'existe pas
     output_dir = 'dataframe'
     os.makedirs(output_dir, exist_ok=True)
@@ -108,6 +107,8 @@ def create_dataframes(year_list, data):
             game_id = game['id']
             home_team = game['homeTeam']['name']['default']
             away_team = game['awayTeam']['name']['default']
+            home_team_id = game['homeTeam']['id']
+            away_team_id = game['awayTeam']['id']
 
             dfPlays = pd.DataFrame.from_records(game['plays'])
             df_filtered = dfPlays[dfPlays['typeDescKey'].isin(['goal', 'shot-on-goal'])]
@@ -127,15 +128,18 @@ def create_dataframes(year_list, data):
                 event_owner_team_id = row['details']['eventOwnerTeamId']
                 event_type = row['typeDescKey']
 
-                force_type = get_force(situation_code, event_owner_team_id, game['homeTeam']['id'], game['awayTeam']['id'])
+                # Determine if the home team is the event owner
+                is_home_team_event_owner = event_owner_team_id == home_team_id
 
-                empty_net = goalie_id is None or (event_owner_team_id == game['homeTeam']['id'] and int(situation_code[0]) == 0) or (event_owner_team_id != game['homeTeam']['id'] and int(situation_code[3]) == 0)
+                force_type = get_force(situation_code, event_owner_team_id, home_team_id, away_team_id)
 
-                team = home_team if event_owner_team_id == game['homeTeam']['id'] else away_team
+                empty_net = goalie_id is None or (event_owner_team_id == home_team_id and int(situation_code[0]) == 0) or (event_owner_team_id != home_team_id and int(situation_code[3]) == 0)
+
+                team = home_team if event_owner_team_id == home_team_id else away_team
 
                 plays_data.append({
-                    'ID':game_id,
-                    'Sort Order':sort_order,
+                    'ID': game_id,
+                    'Sort Order': sort_order,
                     'Time': time_in_period,
                     'Period': period_number,
                     'Event ID': event_id,
@@ -146,7 +150,8 @@ def create_dataframes(year_list, data):
                     'Goalie ID': goalie_id,
                     'Shot Type': shot_type,
                     'Empty Net': empty_net,
-                    'Force Type': force_type
+                    'Force Type': force_type,
+                    'Home': is_home_team_event_owner  # Add this column to track if the home team is the event owner
                 })
 
             # Créer la DataFrame finale
@@ -159,6 +164,7 @@ def create_dataframes(year_list, data):
             # Sauvegarder la DataFrame dans un fichier CSV
             df_final.to_csv(file_path, index=False)
             print(f'Sauvegardé: {file_path}')
+
 
 
 def load_dataframes(year_list):

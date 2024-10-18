@@ -58,37 +58,43 @@ def browse_events(data,game_idx, event_idx):
     event = game['plays'][event_idx]
     
     # Print basic game information
-    print("Game ID:", game['id'])
-    print("Season:", game['season'])
-    print(f"Date and Time: {game['gameDate']} at {game['startTimeUTC']}")
+    print("\tGame ID:", game['id'])
+    print("\tSeason:", game['season'])
+    print(f"\tDate and Time: {game['gameDate']} at {game['startTimeUTC']}")
 
     home_team = game['homeTeam']
     away_team = game['awayTeam']
     
     # Print teams, score, and shots on goal (SoG) statistics
-    print(f"Teams: {home_team['abbrev']} (Home) vs {away_team['abbrev']} (Away)")
-    print(f"Goals: {home_team['score']} (Home) - {away_team['score']} (Away)")
-    print(f"SoG: {home_team['sog']} (Home) - {away_team['sog']} (Away)")
-    
+    print("\n")
+    print(f"\tTeams: {home_team['abbrev']} (Home) vs {away_team['abbrev']} (Away)")
+    print(f"\tGoals: {home_team['score']} (Home) - {away_team['score']} (Away)")
+    print(f"\tSoG: {home_team['sog']} (Home) - {away_team['sog']} (Away)")
+    print("\n")
     # Check if the game went to overtime or shootout
     if game['otInUse']:
-        print("Overtime: Yes")
+        print("\t\tOvertime: Yes")
     else:
-        print("Overtime: No")
+        print("\t\tOvertime: No")
         
     if game['shootoutInUse']:
-        print("Shootout: Yes")
-        print(f"SO Goals: {home_team.get('shootoutGoals', 'None')} (Home) - {away_team.get('shootoutGoals', 'None')} (Away)")
-        print(f"SO Attempts: {home_team.get('shootoutAttempts', 'None')} (Home) - {away_team.get('shootoutAttempts', 'None')} (Away)")
+        print("\t\tShootout: Yes")
+        print(f"\t\tSO Goals: {home_team.get('shootoutGoals', 'None')} (Home) - {away_team.get('shootoutGoals', 'None')} (Away)")
+        print(f"\t\tSO Attempts: {home_team.get('shootoutAttempts', 'None')} (Home) - {away_team.get('shootoutAttempts', 'None')} (Away)")
     else:
-        print("Shootout: No")
+        print("\t\tShootout: No")
 
     # Plot the event on the rink and print the event details
     plot_rink(game, event)
     print(event)
 
 
-
+def filter(data,game_type):
+    result = []
+    for game in data:
+        if game_type == str(game["id"])[4:6]:
+            result.append(game)
+    return result
 
 def widget(year_list):
     """
@@ -103,19 +109,19 @@ def widget(year_list):
     """
     # Load the data using the load_data function
     all_data = data.load_data(year_list)  # Load each year and store in dict
-
-
+    type_dict = {"Regular Season":"02","Play Offs":"03"}
     year_dropdown = Dropdown(options=year_list, description='Select Year')
+    type_dropdown = Dropdown(options=type_dict.keys(), description='Select Type')
     game_slider = IntSlider(min=0, max=10, step=1, description='Game ID')
     event_slider = IntSlider(min=0, max=10, step=1, description='Event')
 
 
-    def update_year(selected_year):
+    def update_year(selected_year,selected_type):
         """
         Updates the game and event sliders based on the selected year.
         """
-        games = all_data[selected_year]  # Get the data for the selected year
-
+        year_games = all_data[selected_year]  # Get the data for the selected year
+        games = filter(year_games,type_dict[selected_type])
         # Update the game slider based on the number of games in the selected year
         game_slider.max = len(games) - 1
         game_slider.value = 0  
@@ -135,4 +141,4 @@ def widget(year_list):
         interact(update_plot, game_idx=game_slider, event_idx=event_slider)
 
     # Interactive dropdown for year selection
-    interact(update_year, selected_year=year_dropdown)
+    interact(update_year, selected_year=year_dropdown, selected_type = type_dropdown)
