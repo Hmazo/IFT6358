@@ -197,4 +197,3 @@ def load_dataframes(year_list):
 
     return df_dict
 
-

@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 import matplotlib.image as mpimg
 from ipywidgets import IntSlider, Dropdown, interact
 from Modules import data
