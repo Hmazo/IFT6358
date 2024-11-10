@@ -19,17 +19,9 @@ def extract_shots_data(game_data, season):
         if event_type in ["shot-on-goal", "goal", "blocked-shot", "missed-shot"]:
             details = event.get('details', {})
             shot_info = {
-                'season': season,
-                'event_id': event['eventId'],
-                'time_in_period': event['timeInPeriod'],
-                'period': event['periodDescriptor']['number'],
-                'event_type': event_type,
                 'x_coord': details.get('xCoord'),
                 'y_coord': details.get('yCoord'),
-                'shot_type': details.get('shotType'),
-                'shooter_id': details.get('shootingPlayerId'),
-                'goalie_id': details.get('goalieInNetId'),
-                'team_id': details.get('eventOwnerTeamId'),
+                'event_type': event_type,
                 'empty_net': 1 if details.get('emptyNet') else 0  # Assume NaN as 0
             }
             shots_data.append(shot_info)
@@ -38,50 +30,42 @@ def extract_shots_data(game_data, season):
 
 def calculate_shot_angle(coord_str):
     """
-    Calcule l'angle d'un tir par rapport au but en degrés.
+    Calculates the angle of a shot relative to the goal in degrees.
     
-    :param coord_str: Chaîne représentant les coordonnées du tir sous la forme "(x, y)", par exemple "(85, -1)".
-    :return: L'angle du tir en degrés, ou NaN si les coordonnées sont invalides.
+    :param coord_str: String representing the shot coordinates "(x, y)"
+    :return: The shot angle in degrees, or NaN if coordinates are invalid.
     """
-    
-    # Vérifier si les coordonnées sont manquantes
     if pd.isna(coord_str):
         return np.nan  
     
-    # Utiliser une expression régulière pour extraire les valeurs x et y de la chaîne de caractères
     match = re.match(r'\((-?\d+),\s*(-?\d+)\)', coord_str)
     if match:
-        # Convertir les coordonnées en entiers
         x = int(match.group(1))  
         y = int(match.group(2)) 
     else:
-        return np.nan  # Retourne NaN si le format de la chaîne est invalide
+        return np.nan
     
-    # Déterminer le côté vers lequel le tir a été effectué (but gauche ou droit)
-    goal_x = -89 if x < 0 else 89  # Position x du but en fonction du côté du terrain
+    goal_x = -89 if x < 0 else 89
     
-    # Calculer l'angle en radians entre le tireur et le but
-    # Utilisation de arctan pour obtenir l'angle entre la ligne du tir et la perpendiculaire au but
-    # Calculer l'angle en radians
     angle_radians = math.atan(y / (x - goal_x)) if x != goal_x else np.nan
-    
-    # Convertir l'angle de radians en degrés pour faciliter l'interprétation
     angle_degrees = math.degrees(angle_radians) if angle_radians is not None else np.nan
     
-    # Retourner l'angle en degrés
     return angle_degrees
 
 def add_features(df):
     """
-    Adds 'shot_distance', 'shot_angle', 'is_goal', and 'empty_net' features to a shot DataFrame.
+    Adds only the required features for shot analysis.
     
     :param df: DataFrame containing shot information.
-    :return: DataFrame enriched with the new features.
+    :return: DataFrame containing only the selected features.
     """
+    # Calculate distance and angle, set goal flag, and keep only relevant columns
     df['shot_distance'] = df.apply(lambda row: simple_visualisation.calculate_shot_distance(f"({row['x_coord']}, {row['y_coord']})"), axis=1)
     df['shot_angle'] = df.apply(lambda row: calculate_shot_angle(f"({row['x_coord']}, {row['y_coord']})"), axis=1)
     df['is_goal'] = df['event_type'].apply(lambda x: 1 if x == 'goal' else 0)
-    return df
+    
+    # Keep only the columns needed for analysis
+    return df[['shot_distance', 'shot_angle', 'is_goal', 'empty_net']]
 
 def process_loaded_games(all_data):
     """
@@ -103,5 +87,3 @@ def process_loaded_games(all_data):
     # Combine all shot data into a single DataFrame
     combined_shots_df = pd.concat(all_shots_data, ignore_index=True)
     return combined_shots_df
-
-
