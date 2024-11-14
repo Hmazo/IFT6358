@@ -16,15 +16,13 @@ def determine_shot_coords(row):
 
     Args:
         row (Series): A row from the DataFrame containing shot data.
-        period (int): The current period (used to determine shooting direction).
     
     Returns:
         tuple: Adjusted (x, y) coordinates if the shot is valid, otherwise None.
     """
 
     try:
-        
-        x, y = eval(row['Coordinates'])
+        x, y = eval(row['Coordinates'])  # Parse the coordinates from the string
         if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):
             return None
     except (SyntaxError, TypeError, NameError):
@@ -32,21 +30,27 @@ def determine_shot_coords(row):
 
     is_home_team = row['Home']  
     period = row['Period']
-    if period in [1, 3]:
+    
+    # Handle period logic
+    if period in [1, 3]:  # Regular play, home team shoots on the left, away on the right
         if is_home_team:
-            if x > 0: 
+            if x > 0:  # Invalid for home team in periods 1 or 3
                 return None
         else:
-            if x < 0:  
+            if x < 0:  # Invalid for away team in periods 1 or 3
                 return None
-    elif period == 2:
+    elif period in [2, 4]:  # Teams switch sides in the 2nd and 4th periods
         if is_home_team:
-            if x < 0:  
+            if x < 0:  # Invalid for home team in periods 2 or 4
                 return None
         else:
-            if x > 0:  
+            if x > 0:  # Invalid for away team in periods 2 or 4
                 return None
-    x = abs(x)  
+    elif period == 5:  # Shootout, ignore coordinates
+        return None
+    
+    # Return valid coordinates, ensuring x is positive (as all valid shots are in the opponent's half)
+    x = abs(x)
     return (y, x)
 
 
@@ -155,7 +159,7 @@ def plot_shot_rate(team, rate, year):
 def widget(dataframes):
 
     
-    year_list = range(2016, 2024)
+    year_list = dataframes.keys()
     year_dropdown = Dropdown(options=year_list, description='Select Year')
     rates = {}
 
