@@ -4,6 +4,7 @@ import numpy as np
 import re
 import math
 
+
 def extract_shots_data(game_data, season):
     """
     Extracts relevant shot information from game data.
@@ -18,15 +19,33 @@ def extract_shots_data(game_data, season):
         event_type = event['typeDescKey']
         if event_type in ["shot-on-goal", "goal", "blocked-shot", "missed-shot"]:
             details = event.get('details', {})
+            
+            # Extract relevant details
+            x_coord, y_coord = details.get('xCoord'), details.get('yCoord')
+            goalie_id = details.get('goalieInNetId')
+            event_owner_team_id = details.get('eventOwnerTeamId')
+            situation_code = event.get('situationCode', "0000")  # Default to "0000" if missing
+            home_team_id = game_data['homeTeam']['id']
+            away_team_id = game_data['awayTeam']['id']
+
+            # Calculate empty_net status
+            empty_net = (
+                goalie_id is None or 
+                (event_owner_team_id == home_team_id and int(situation_code[0]) == 0) or 
+                (event_owner_team_id != home_team_id and int(situation_code[3]) == 0)
+            )
+
+            # Create shot information dictionary
             shot_info = {
-                'x_coord': details.get('xCoord'),
-                'y_coord': details.get('yCoord'),
+                'x_coord': x_coord,
+                'y_coord': y_coord,
                 'event_type': event_type,
-                'empty_net': 1 if details.get('emptyNet') else 0  # Assume NaN as 0
+                'empty_net': 1 if empty_net else 0  # Assign 1 for empty net, 0 otherwise
             }
             shots_data.append(shot_info)
     
     return pd.DataFrame(shots_data)
+
 
 def calculate_shot_angle(coord_str):
     """
@@ -52,6 +71,7 @@ def calculate_shot_angle(coord_str):
     
     return angle_degrees
 
+
 def add_features(df):
     """
     Adds only the required features for shot analysis.
@@ -66,6 +86,7 @@ def add_features(df):
     
     # Keep only the columns needed for analysis
     return df[['shot_distance', 'shot_angle', 'is_goal', 'empty_net']]
+
 
 def process_loaded_games(all_data):
     """
