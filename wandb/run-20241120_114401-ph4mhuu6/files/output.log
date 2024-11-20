@@ -1,0 +1,138 @@
+Loading data for season 2016
+Data for season 2016 loaded successfully.
+Loading data for season 2017
+Data for season 2017 loaded successfully.
+Loading data for season 2018
+Data for season 2018 loaded successfully.
+Loading data for season 2019
+Data for season 2019 loaded successfully.
+Loading data for season 2020
+Data for season 2020 loaded successfully.
+100%|██████████| 4/4 [01:04<00:00, 16.20s/it]
+100%|██████████| 4/4 [02:36<00:00, 39.03s/it]
+100%|██████████| 1/1 [00:21<00:00, 21.71s/it]
+Train data saved to: dataframe\train_data_enriched.csv
+Test data saved to: dataframe\test_data_enriched.csv
+DataFrame filtré :
+           game_id  game_seconds  game_period  x_coord  y_coord  \
+275833  2017021065            31            1    -68.0     31.0
+275834  2017021065            86            1     79.0      4.0
+275835  2017021065           111            1    -50.0     36.0
+275836  2017021065           115            1    -85.0    -25.0
+275837  2017021065           124            1     73.0    -16.0
+...            ...           ...          ...      ...      ...
+275963  2017021065          3706            4     58.0     10.0
+275964  2017021065          3734            4     60.0     23.0
+275965  2017021065          3744            4     87.0     -9.0
+275966  2017021065          3807            4     74.0      1.0
+275967  2017021065          3851            4     74.0      1.0
+
+        shot_distance  shot_angle shot_type  empty_net last_event_type  \
+275833      37.443290   55.885527      None          1             hit
+275834      10.770330  -21.801409      None          1         faceoff
+275835      53.075418   42.709390      snap          0             hit
+275836      25.317978  -80.909723     wrist          0    shot-on-goal
+275837      22.627417   45.000000  backhand          0        takeaway
+...               ...         ...       ...        ...             ...
+275963      32.572995  -17.878697      slap          0    shot-on-goal
+275964      37.013511  -38.418055      slap          0             hit
+275965       9.219544   77.471192  backhand          0         faceoff
+275966      15.033296   -3.814075     wrist          0             hit
+275967      15.033296   -3.814075     wrist          0         faceoff
+
+        last_event_x  last_event_y  time_since_last_event  \
+275833         -94.0          35.0                     14
+275834          69.0          22.0                      6
+275835          72.0          37.0                     11
+275836         -50.0          36.0                      4
+275837         -39.0         -28.0                      1
+...              ...           ...                    ...
+275963          71.0          -8.0                     11
+275964         -61.0         -32.0                     14
+275965          69.0          22.0                      9
+275966          57.0         -12.0                      2
+275967          69.0          22.0                     43
+
+        distance_from_last_event  rebound  shot_angle_change       speed
+275833                 26.305893    False           0.000000    1.878992
+275834                 20.591260    False           0.000000    3.431877
+275835                122.004098    False           0.000000   11.091282
+275836                 70.327804     True        -123.619113   17.581951
+275837                112.641023    False           0.000000  112.641023
+...                          ...      ...                ...         ...
+275963                 22.203603     True         -41.841186    2.018509
+275964                132.913506    False           0.000000    9.493822
+275965                 35.846897    False           0.000000    3.982989
+275966                 21.400935    False           0.000000   10.700467
+275967                 21.587033    False           0.000000    0.502024
+
+[135 rows x 17 columns]
+Loading data for season 2016
+Data for season 2016 loaded successfully.
+Loading data for season 2017
+Data for season 2017 loaded successfully.
+Loading data for season 2018
+Data for season 2018 loaded successfully.
+Loading data for season 2019
+Data for season 2019 loaded successfully.
+Loading data for season 2020
+Data for season 2020 loaded successfully.
+100%|██████████| 4/4 [00:40<00:00, 10.06s/it]
+100%|██████████| 4/4 [00:59<00:00, 14.86s/it]
+100%|██████████| 1/1 [00:11<00:00, 11.81s/it]
+Train data saved to: dataframe\train_data_enriched.csv
+Test data saved to: dataframe\test_data_enriched.csv
+DataFrame filtré :
+           game_id  game_seconds  game_period  x_coord  y_coord  \
+275833  2017021065            31            1    -68.0     31.0
+275834  2017021065            86            1     79.0      4.0
+275835  2017021065           111            1    -50.0     36.0
+275836  2017021065           115            1    -85.0    -25.0
+275837  2017021065           124            1     73.0    -16.0
+...            ...           ...          ...      ...      ...
+275963  2017021065          3706            4     58.0     10.0
+275964  2017021065          3734            4     60.0     23.0
+275965  2017021065          3744            4     87.0     -9.0
+275966  2017021065          3807            4     74.0      1.0
+275967  2017021065          3851            4     74.0      1.0
+
+        shot_distance  shot_angle shot_type  empty_net last_event_type  \
+275833      37.443290   55.885527      None          1             hit
+275834      10.770330  -21.801409      None          1         faceoff
+275835      53.075418   42.709390      snap          0             hit
+275836      25.317978  -80.909723     wrist          0    shot-on-goal
+275837      22.627417   45.000000  backhand          0        takeaway
+...               ...         ...       ...        ...             ...
+275963      32.572995  -17.878697      slap          0    shot-on-goal
+275964      37.013511  -38.418055      slap          0             hit
+275965       9.219544   77.471192  backhand          0         faceoff
+275966      15.033296   -3.814075     wrist          0             hit
+275967      15.033296   -3.814075     wrist          0         faceoff
+
+        last_event_x  last_event_y  time_since_last_event  \
+275833         -94.0          35.0                     14
+275834          69.0          22.0                      6
+275835          72.0          37.0                     11
+275836         -50.0          36.0                      4
+275837         -39.0         -28.0                      1
+...              ...           ...                    ...
+275963          71.0          -8.0                     11
+275964         -61.0         -32.0                     14
+275965          69.0          22.0                      9
+275966          57.0         -12.0                      2
+275967          69.0          22.0                     43
+
+        distance_from_last_event  rebound  shot_angle_change       speed
+275833                 26.305893    False           0.000000    1.878992
+275834                 20.591260    False           0.000000    3.431877
+275835                122.004098    False           0.000000   11.091282
+275836                 70.327804     True        -123.619113   17.581951
+275837                112.641023    False           0.000000  112.641023
+...                          ...      ...                ...         ...
+275963                 22.203603     True         -41.841186    2.018509
+275964                132.913506    False           0.000000    9.493822
+275965                 35.846897    False           0.000000    3.982989
+275966                 21.400935    False           0.000000   10.700467
+275967                 21.587033    False           0.000000    0.502024
+
+[135 rows x 17 columns]

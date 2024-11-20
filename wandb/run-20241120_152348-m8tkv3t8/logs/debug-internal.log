@@ -1,0 +1,17 @@
+{"time":"2024-11-20T15:23:48.3106514-05:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-20T15:23:48.3106514-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\vince\\OneDrive\\Documents\\GitHub\\IFT6358\\wandb\\run-20241120_152348-m8tkv3t8\\logs\\debug-core.log"}
+{"time":"2024-11-20T15:23:51.608669-05:00","level":"INFO","msg":"created new stream","id":"m8tkv3t8"}
+{"time":"2024-11-20T15:23:51.608669-05:00","level":"INFO","msg":"stream: started","id":"m8tkv3t8"}
+{"time":"2024-11-20T15:23:51.6539917-05:00","level":"INFO","msg":"sender: started","stream_id":"m8tkv3t8"}
+{"time":"2024-11-20T15:23:51.6675925-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"m8tkv3t8"}}
+{"time":"2024-11-20T15:23:51.6858541-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"m8tkv3t8"}}
+{"time":"2024-11-20T15:23:52.9927241-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-20T15:23:56.570002-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-20T15:23:56.5882071-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-20T15:23:57.6142077-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.6302334}],"total_operations":1}}
+{"time":"2024-11-20T15:23:58.887664-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-20T15:24:01.1107173-05:00","level":"INFO","msg":"stream: closing","id":"m8tkv3t8"}
+{"time":"2024-11-20T15:24:01.1107173-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"m8tkv3t8"}}
+{"time":"2024-11-20T15:24:01.1107173-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"m8tkv3t8"}}
+{"time":"2024-11-20T15:24:01.1261262-05:00","level":"INFO","msg":"sender: closed","stream_id":"m8tkv3t8"}
+{"time":"2024-11-20T15:24:01.1316981-05:00","level":"INFO","msg":"stream: closed","id":"m8tkv3t8"}

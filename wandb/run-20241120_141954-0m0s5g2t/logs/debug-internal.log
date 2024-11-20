@@ -1,0 +1,13 @@
+{"time":"2024-11-20T14:19:55.0771703-05:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-20T14:19:55.0776783-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\vince\\OneDrive\\Documents\\GitHub\\IFT6358\\wandb\\run-20241120_141954-0m0s5g2t\\logs\\debug-core.log"}
+{"time":"2024-11-20T14:19:56.3680752-05:00","level":"INFO","msg":"created new stream","id":"0m0s5g2t"}
+{"time":"2024-11-20T14:19:56.3680752-05:00","level":"INFO","msg":"stream: started","id":"0m0s5g2t"}
+{"time":"2024-11-20T14:19:56.3686056-05:00","level":"INFO","msg":"sender: started","stream_id":"0m0s5g2t"}
+{"time":"2024-11-20T14:19:56.3690414-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"0m0s5g2t"}}
+{"time":"2024-11-20T14:19:56.3737028-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"0m0s5g2t"}}
+{"time":"2024-11-20T14:19:56.9789032-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-20T14:19:59.8355509-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T14:27:10.3366862-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T14:27:11.1438522-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T14:29:29.5661452-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T14:29:29.8883711-05:00","level":"INFO","msg":"Pausing system monitor"}
