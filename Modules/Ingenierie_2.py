@@ -133,7 +133,9 @@ def extract_shots_with_previous_and_skater_info(game_data, season):
         distance_from_last = calculate_distance(x_coord, y_coord,
                                                 last_event['x'], last_event['y'])
 
+        # Add shot information for valid shot events
         if event_type in ["shot-on-goal", "goal", "blocked-shot", "missed-shot"]:
+            last_coord_str = f"({last_event['x']}, {last_event['y']})"  # Convert last event coordinates into string
             shot_info = {
                 'game_id': game_data['id'],
                 'game_seconds': game_seconds,
@@ -154,6 +156,7 @@ def extract_shots_with_previous_and_skater_info(game_data, season):
                 'attacking_team_id': attacking_team_id,
                 'attacking_team_name': attacking_team_name,
                 'home_team': home_team,
+                'is_goal': 1 if event_type == "goal" else 0,          # Add is_goal column
             }
             shots_data.append(shot_info)
 
