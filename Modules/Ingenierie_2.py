@@ -80,9 +80,9 @@ def extract_shots_data(game_data, season):
     return pd.DataFrame(shots_data)
 
 
-def extract_shots_with_previous(game_data, season):
+def extract_shots_with_previous_and_skater_info(game_data, season):
     """
-    Extracts shot data and includes details about the previous event.
+    Extracts shot data with details about the previous event, skater counts, and attacking team information.
     
     :param game_data: Dictionary containing the game's data.
     :param season: Season to which the game belongs.
@@ -95,7 +95,12 @@ def extract_shots_with_previous(game_data, season):
         'y': None,     # y-coordinate of the last event
         'time': 0      # Game seconds at the last event
     }
-    
+
+    home_team = game_data['homeTeam']['name']['default']
+    away_team = game_data['awayTeam']['name']['default']
+    home_team_id = game_data['homeTeam']['id']
+    away_team_id = game_data['awayTeam']['id']
+
     for event in game_data['plays']:
         event_type = event['typeDescKey']
         details = event.get('details', {})
@@ -105,14 +110,18 @@ def extract_shots_with_previous(game_data, season):
         period_time = event['timeInPeriod']
         game_seconds = calculate_game_seconds(period, period_time)
 
-        # Extract goalie ID, event owner team ID, and situation code from details
-        goalie_id = details.get('goalieInNetId')
+        # Extract situation code and skater counts
+        situation_code = event.get('situationCode', "0000")
+        away_skaters = int(situation_code[1])  # Away skaters (non-goalies)
+        home_skaters = int(situation_code[2])  # Home skaters (non-goalies)
+
+        # Determine attacking team
         event_owner_team_id = details.get('eventOwnerTeamId')
-        situation_code = event.get('situationCode', "0000")  # Default to "0000" if missing
-        home_team_id = game_data['homeTeam']['id']
-        away_team_id = game_data['awayTeam']['id']
-        
+        attacking_team_id = event_owner_team_id
+        attacking_team_name = home_team if event_owner_team_id == home_team_id else away_team
+
         # Calculate empty_net status
+        goalie_id = details.get('goalieInNetId')
         empty_net = (
             goalie_id is None or 
             (event_owner_team_id == home_team_id and int(situation_code[0]) == 0) or 
@@ -125,7 +134,6 @@ def extract_shots_with_previous(game_data, season):
                                                 last_event['x'], last_event['y'])
 
         if event_type in ["shot-on-goal", "goal", "blocked-shot", "missed-shot"]:
-            last_coord_str = f"({last_event['x']}, {last_event['y']})"  # Convert last event coordinates into string
             shot_info = {
                 'game_id': game_data['id'],
                 'game_seconds': game_seconds,
@@ -141,6 +149,11 @@ def extract_shots_with_previous(game_data, season):
                 'last_event_y': last_event['y'],                      # y-coordinate of the last event
                 'time_since_last_event': time_elapsed,                # Time since the last event
                 'distance_from_last_event': distance_from_last,       # Distance from the last event
+                'friendly_skaters': home_skaters if event_owner_team_id == home_team_id else away_skaters,
+                'opposing_skaters': away_skaters if event_owner_team_id == home_team_id else home_skaters,
+                'attacking_team_id': attacking_team_id,
+                'attacking_team_name': attacking_team_name,
+                'home_team': home_team,
             }
             shots_data.append(shot_info)
 
@@ -152,8 +165,9 @@ def extract_shots_with_previous(game_data, season):
             'time': game_seconds
         })
     
-    # Convert the collected shot information with previous event details to a DataFrame
+    # Convert the collected shot information to a DataFrame
     return pd.DataFrame(shots_data)
+
 
 
 def add_gameplay_features(df):
@@ -213,7 +227,7 @@ def process_enriched_shot_data(all_data):
     for year, games in tqdm(all_data.items()):
         for game_data in games:
             # Extract enriched shot information
-            shots_df = extract_shots_with_previous(game_data, f"{year}{year + 1}")
+            shots_df = extract_shots_with_previous_and_skater_info(game_data, f"{year}{year + 1}")
             # Add additional gameplay features
             shots_df = add_gameplay_features(shots_df)
             all_shots_data.append(shots_df)
