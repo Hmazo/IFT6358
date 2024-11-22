@@ -1,0 +1,16 @@
+{
+  "os":  "Windows-10-10.0.22631-SP0",
+  "python":  "3.11.4",
+  "startedAt":  "2024-11-20T16:07:35.715118Z",
+  "program":  "c:\\Users\\vince\\OneDrive\\Documents\\GitHub\\IFT6358\\Ingenierie_2.ipynb",
+  "git":  {
+    "remote":  "https://github.com/Hmazo/IFT6358.git",
+    "commit":  "352261fae0f423ad6390dce61ac6b70e087b928a"
+  },
+  "email":  "vincent.neveu@umontreal.ca",
+  "root":  "c:\\Users\\vince\\OneDrive\\Documents\\GitHub\\IFT6358",
+  "host":  "DESKTOP-5BNNVBM",
+  "username":  "vince",
+  "executable":  "c:\\Users\\vince\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "codePathLocal":  "Ingenierie_2.ipynb"
+}

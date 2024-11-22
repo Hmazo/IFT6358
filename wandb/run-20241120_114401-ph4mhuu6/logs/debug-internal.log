@@ -1,0 +1,65 @@
+{"time":"2024-11-20T11:44:01.9167845-05:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-20T11:44:01.9178704-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\vince\\OneDrive\\Documents\\GitHub\\IFT6358\\wandb\\run-20241120_114401-ph4mhuu6\\logs\\debug-core.log"}
+{"time":"2024-11-20T11:44:02.7432746-05:00","level":"INFO","msg":"created new stream","id":"ph4mhuu6"}
+{"time":"2024-11-20T11:44:02.7456853-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ph4mhuu6"}}
+{"time":"2024-11-20T11:44:02.7463547-05:00","level":"INFO","msg":"stream: started","id":"ph4mhuu6"}
+{"time":"2024-11-20T11:44:02.7445583-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ph4mhuu6"}}
+{"time":"2024-11-20T11:44:02.7463547-05:00","level":"INFO","msg":"sender: started","stream_id":"ph4mhuu6"}
+{"time":"2024-11-20T11:44:03.2713831-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-20T11:44:04.4443605-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T11:45:09.1845554-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T11:45:09.2542334-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T11:45:14.9259505-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T11:45:14.9301446-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T11:45:15.0185949-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T11:45:15.0390124-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T11:45:17.5546432-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T11:45:17.5616711-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T11:45:17.9319411-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T11:45:17.9690235-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T11:49:45.5256175-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T11:49:45.6923924-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T11:52:34.417588-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2024-11-20T12:06:00.1567577-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T12:06:00.2786879-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T12:06:00.4811205-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T12:12:23.3408085-05:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/hicham-mazouzi-university-of-montreal/IFT6758.2024-A/ph4mhuu6/file_stream"}
+{"time":"2024-11-20T12:14:35.7672132-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T12:14:36.4786071-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T12:15:44.2484834-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T12:15:44.3567468-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T12:19:08.9252566-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T12:19:09.161057-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T12:19:31.7676536-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T12:20:51.6939649-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/hicham-mazouzi-university-of-montreal/IFT6758.2024-A/ph4mhuu6/file_stream\": read tcp 192.168.10.201:54013->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2024-11-20T13:08:02.3169273-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.10.201:53425->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2024-11-20T13:23:44.5167697-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T13:23:44.6954292-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T13:24:43.6057076-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T13:24:43.6687575-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T13:29:11.069127-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/hicham-mazouzi-university-of-montreal/IFT6758.2024-A/ph4mhuu6/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-20T13:49:56.8665739-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T13:49:56.905392-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T13:49:56.9476297-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T13:58:58.5261572-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T13:58:59.6418245-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T13:59:44.6657071-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T13:59:45.0796458-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T14:00:09.5825475-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/hicham-mazouzi-university-of-montreal/IFT6758.2024-A/ph4mhuu6/file_stream\": EOF"}
+{"time":"2024-11-20T14:01:12.3824649-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T14:01:12.732552-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T14:01:40.1985242-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T14:01:40.3296826-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T14:01:40.398008-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T14:01:40.6773513-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T14:01:40.6883589-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T14:01:40.7457942-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T14:01:40.8657966-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-20T14:01:40.8767965-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-20T14:01:41.8733328-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.6885668,"progress":"27B/27B"},{"desc":"saving job artifact","runtime_seconds":0.4509034},{"desc":"uploading config.yaml","runtime_seconds":0.1610224,"progress":"461B/461B"},{"desc":"uploading output.log","runtime_seconds":0.1610224,"progress":"7.6KB/7.6KB"}],"total_operations":4}}
+{"time":"2024-11-20T14:01:42.0724535-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-20T14:01:43.8023975-05:00","level":"INFO","msg":"stream: closing","id":"ph4mhuu6"}
+{"time":"2024-11-20T14:01:43.8029807-05:00","level":"INFO","msg":"sender: closed","stream_id":"ph4mhuu6"}
+{"time":"2024-11-20T14:01:43.8023975-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ph4mhuu6"}}
+{"time":"2024-11-20T14:01:43.8029807-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ph4mhuu6"}}
+{"time":"2024-11-20T14:01:43.8063469-05:00","level":"INFO","msg":"stream: closed","id":"ph4mhuu6"}

@@ -1,0 +1,8 @@
+{"time":"2024-11-20T14:01:43.8316913-05:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-20T14:01:43.8316913-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\vince\\OneDrive\\Documents\\GitHub\\IFT6358\\wandb\\run-20241120_140140-tpet0vdr\\logs\\debug-core.log"}
+{"time":"2024-11-20T14:01:45.8921994-05:00","level":"INFO","msg":"created new stream","id":"tpet0vdr"}
+{"time":"2024-11-20T14:01:45.9263896-05:00","level":"INFO","msg":"stream: started","id":"tpet0vdr"}
+{"time":"2024-11-20T14:01:45.9330245-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tpet0vdr"}}
+{"time":"2024-11-20T14:01:45.9542899-05:00","level":"INFO","msg":"sender: started","stream_id":"tpet0vdr"}
+{"time":"2024-11-20T14:01:45.9553014-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"tpet0vdr"}}
+{"time":"2024-11-20T14:01:54.4010918-05:00","level":"INFO","msg":"Starting system monitor"}

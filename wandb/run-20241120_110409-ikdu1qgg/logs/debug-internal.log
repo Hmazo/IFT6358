@@ -1,0 +1,21 @@
+{"time":"2024-11-20T11:04:09.2468412-05:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-20T11:04:09.2468412-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\vince\\OneDrive\\Documents\\GitHub\\IFT6358\\wandb\\run-20241120_110409-ikdu1qgg\\logs\\debug-core.log"}
+{"time":"2024-11-20T11:04:09.9021698-05:00","level":"INFO","msg":"created new stream","id":"ikdu1qgg"}
+{"time":"2024-11-20T11:04:09.9021698-05:00","level":"INFO","msg":"stream: started","id":"ikdu1qgg"}
+{"time":"2024-11-20T11:04:09.9026788-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ikdu1qgg"}}
+{"time":"2024-11-20T11:04:09.9026788-05:00","level":"INFO","msg":"sender: started","stream_id":"ikdu1qgg"}
+{"time":"2024-11-20T11:04:09.9026788-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ikdu1qgg"}}
+{"time":"2024-11-20T11:04:10.3746917-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-20T11:04:14.0766721-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T11:04:25.2005915-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T11:04:25.2054819-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T11:04:29.7989944-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-20T11:04:30.3488293-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-20T11:04:30.3508329-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-20T11:04:31.3583101-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.8470166}],"total_operations":1}}
+{"time":"2024-11-20T11:04:32.1722846-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-20T11:04:33.6411737-05:00","level":"INFO","msg":"stream: closing","id":"ikdu1qgg"}
+{"time":"2024-11-20T11:04:33.6411737-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ikdu1qgg"}}
+{"time":"2024-11-20T11:04:33.6411737-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ikdu1qgg"}}
+{"time":"2024-11-20T11:04:33.6428681-05:00","level":"INFO","msg":"sender: closed","stream_id":"ikdu1qgg"}
+{"time":"2024-11-20T11:04:33.6457875-05:00","level":"INFO","msg":"stream: closed","id":"ikdu1qgg"}
