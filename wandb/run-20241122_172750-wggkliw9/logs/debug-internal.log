@@ -1,0 +1,9 @@
+{"time":"2024-11-22T17:27:50.9678332-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-22T17:27:50.9683691-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\hicha\\OneDrive\\Bureau\\IFT6358\\wandb\\run-20241122_172750-wggkliw9\\logs\\debug-core.log"}
+{"time":"2024-11-22T17:27:51.0881388-05:00","level":"INFO","msg":"created new stream","id":"wggkliw9"}
+{"time":"2024-11-22T17:27:51.0881388-05:00","level":"INFO","msg":"stream: started","id":"wggkliw9"}
+{"time":"2024-11-22T17:27:51.0881388-05:00","level":"INFO","msg":"handler: started","stream_id":"wggkliw9"}
+{"time":"2024-11-22T17:27:51.0881388-05:00","level":"INFO","msg":"sender: started","stream_id":"wggkliw9"}
+{"time":"2024-11-22T17:27:51.0881388-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"wggkliw9"}
+{"time":"2024-11-22T17:27:51.4387566-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-22T17:27:51.7205019-05:00","level":"INFO","msg":"Pausing system monitor"}

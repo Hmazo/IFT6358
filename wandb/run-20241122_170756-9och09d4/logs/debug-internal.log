@@ -1,0 +1,17 @@
+{"time":"2024-11-22T17:07:56.0407355-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-22T17:07:56.0407355-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\hicha\\OneDrive\\Bureau\\IFT6358\\wandb\\run-20241122_170756-9och09d4\\logs\\debug-core.log"}
+{"time":"2024-11-22T17:07:56.1674228-05:00","level":"INFO","msg":"created new stream","id":"9och09d4"}
+{"time":"2024-11-22T17:07:56.1674228-05:00","level":"INFO","msg":"handler: started","stream_id":"9och09d4"}
+{"time":"2024-11-22T17:07:56.1674228-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"9och09d4"}
+{"time":"2024-11-22T17:07:56.1674228-05:00","level":"INFO","msg":"sender: started","stream_id":"9och09d4"}
+{"time":"2024-11-22T17:07:56.1674228-05:00","level":"INFO","msg":"stream: started","id":"9och09d4"}
+{"time":"2024-11-22T17:07:56.8749806-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-22T17:07:57.485555-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-22T17:07:57.4860957-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-22T17:07:58.488124-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.8534931}],"total_operations":1}}
+{"time":"2024-11-22T17:07:58.8266269-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-22T17:07:59.9570775-05:00","level":"INFO","msg":"stream: closing","id":"9och09d4"}
+{"time":"2024-11-22T17:07:59.9570775-05:00","level":"INFO","msg":"handler: closed","stream_id":"9och09d4"}
+{"time":"2024-11-22T17:07:59.9570775-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9och09d4"}
+{"time":"2024-11-22T17:07:59.9570775-05:00","level":"INFO","msg":"sender: closed","stream_id":"9och09d4"}
+{"time":"2024-11-22T17:07:59.9570775-05:00","level":"INFO","msg":"stream: closed","id":"9och09d4"}

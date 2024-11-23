@@ -1,0 +1,80 @@
+Loading artifact: distance_model.pkl:v3...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model.pkl:v3': ['distance_model.pkl']
+Loading artifact: angle_model.pkl:v3...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'angle_model.pkl:v3': ['angle_model.pkl']
+Loading artifact: combined_model.pkl:v3...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'combined_model.pkl:v3': ['combined_model.pkl']
+Loading artifact: Best_XGBoost_Q5_2:v0...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Loading artifact: lightgbm_model:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+c:\Users\hicha\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.3.2 when using version 1.5.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Loading artifact: distance_model.pkl:v3...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model.pkl:v3': ['distance_model.pkl']
+distance
+Loading artifact: distance_model.pkl:v3...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model.pkl:v3': ['distance_model.pkl']
+Loading artifact: angle_model.pkl:v3...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'angle_model.pkl:v3': ['angle_model.pkl']
+Loading artifact: combined_model.pkl:v3...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'combined_model.pkl:v3': ['combined_model.pkl']
+Loading artifact: Best_XGBoost_Q5_2:v0...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Loading artifact: lightgbm_model:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+c:\Users\hicha\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.3.2 when using version 1.5.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Loading artifact: distance_model.pkl:v2...
+Loading artifact: distance_model:v2...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model:v2': ['distance_model']
+Loading artifact: distance_model:v3...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model:v3': ['distance_model.pkl']
+Loading artifact: angle_model:v3...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'angle_model:v3': ['angle_model.pkl']
+Loading artifact: combined_model:v3...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'combined_model:v3': ['combined_model.pkl']
+Loading artifact: Best_XGBoost_Q5_2:v0...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Loading artifact: lightgbm_model:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+<class 'str'>
+distance
+Loading artifact: distance_model:v5...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model:v5': ['distance_model.pkl']
+c:\Users\hicha\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LogisticRegression from version 1.3.2 when using version 1.5.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Loading artifact: angle_model:v5...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'angle_model:v5': ['angle_model.pkl']
+Loading artifact: combined_model:v5...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'combined_model:v5': ['combined_model.pkl']
+Loading artifact: Best_XGBoost_Q5_2:v0...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Loading artifact: lightgbm_model:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+Evaluating distance_model on regular_season...

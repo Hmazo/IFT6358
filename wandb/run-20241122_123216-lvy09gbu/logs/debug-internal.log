@@ -1,0 +1,21 @@
+{"time":"2024-11-22T12:32:16.8398672-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-22T12:32:16.8398672-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\hicha\\OneDrive\\Bureau\\IFT6358\\wandb\\run-20241122_123216-lvy09gbu\\logs\\debug-core.log"}
+{"time":"2024-11-22T12:32:16.9739862-05:00","level":"INFO","msg":"created new stream","id":"lvy09gbu"}
+{"time":"2024-11-22T12:32:16.9739862-05:00","level":"INFO","msg":"stream: started","id":"lvy09gbu"}
+{"time":"2024-11-22T12:32:16.9739862-05:00","level":"INFO","msg":"handler: started","stream_id":"lvy09gbu"}
+{"time":"2024-11-22T12:32:16.9749879-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"lvy09gbu"}
+{"time":"2024-11-22T12:32:16.9759865-05:00","level":"INFO","msg":"sender: started","stream_id":"lvy09gbu"}
+{"time":"2024-11-22T12:32:17.2896454-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-22T12:32:17.5513072-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-22T12:32:19.7713528-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-22T12:32:19.7750369-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-22T12:32:23.0802522-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-22T12:32:23.145332-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-22T12:32:23.145332-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-22T12:32:24.1535472-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.9354174}],"total_operations":1}}
+{"time":"2024-11-22T12:32:24.3989725-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-22T12:32:25.5473653-05:00","level":"INFO","msg":"stream: closing","id":"lvy09gbu"}
+{"time":"2024-11-22T12:32:25.5473653-05:00","level":"INFO","msg":"handler: closed","stream_id":"lvy09gbu"}
+{"time":"2024-11-22T12:32:25.5473653-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lvy09gbu"}
+{"time":"2024-11-22T12:32:25.5473653-05:00","level":"INFO","msg":"sender: closed","stream_id":"lvy09gbu"}
+{"time":"2024-11-22T12:32:25.5473653-05:00","level":"INFO","msg":"stream: closed","id":"lvy09gbu"}

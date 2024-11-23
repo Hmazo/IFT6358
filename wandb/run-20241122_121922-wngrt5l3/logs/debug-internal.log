@@ -1,0 +1,21 @@
+{"time":"2024-11-22T12:19:22.1805436-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-22T12:19:22.1815427-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\hicha\\OneDrive\\Bureau\\IFT6358\\wandb\\run-20241122_121922-wngrt5l3\\logs\\debug-core.log"}
+{"time":"2024-11-22T12:19:22.3202773-05:00","level":"INFO","msg":"created new stream","id":"wngrt5l3"}
+{"time":"2024-11-22T12:19:22.3202773-05:00","level":"INFO","msg":"stream: started","id":"wngrt5l3"}
+{"time":"2024-11-22T12:19:22.3202773-05:00","level":"INFO","msg":"handler: started","stream_id":"wngrt5l3"}
+{"time":"2024-11-22T12:19:22.3202773-05:00","level":"INFO","msg":"sender: started","stream_id":"wngrt5l3"}
+{"time":"2024-11-22T12:19:22.3202773-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"wngrt5l3"}
+{"time":"2024-11-22T12:19:22.6299518-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-22T12:19:22.8658725-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-22T12:19:27.7645215-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-22T12:19:27.7668811-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-22T12:23:02.0125174-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-22T12:23:02.093784-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-22T12:23:02.093784-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-22T12:23:03.1072719-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.8322882}],"total_operations":1}}
+{"time":"2024-11-22T12:23:03.7346536-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-22T12:23:04.8716204-05:00","level":"INFO","msg":"stream: closing","id":"wngrt5l3"}
+{"time":"2024-11-22T12:23:04.8716204-05:00","level":"INFO","msg":"handler: closed","stream_id":"wngrt5l3"}
+{"time":"2024-11-22T12:23:04.8716204-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wngrt5l3"}
+{"time":"2024-11-22T12:23:04.8716204-05:00","level":"INFO","msg":"sender: closed","stream_id":"wngrt5l3"}
+{"time":"2024-11-22T12:23:04.8716204-05:00","level":"INFO","msg":"stream: closed","id":"wngrt5l3"}

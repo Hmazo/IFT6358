@@ -1,0 +1,21 @@
+{"time":"2024-11-22T12:24:02.7992778-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-22T12:24:02.7992778-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\hicha\\OneDrive\\Bureau\\IFT6358\\wandb\\run-20241122_122402-lguj0sn6\\logs\\debug-core.log"}
+{"time":"2024-11-22T12:24:02.9197381-05:00","level":"INFO","msg":"created new stream","id":"lguj0sn6"}
+{"time":"2024-11-22T12:24:02.9197381-05:00","level":"INFO","msg":"stream: started","id":"lguj0sn6"}
+{"time":"2024-11-22T12:24:02.9198357-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"lguj0sn6"}
+{"time":"2024-11-22T12:24:02.9198357-05:00","level":"INFO","msg":"sender: started","stream_id":"lguj0sn6"}
+{"time":"2024-11-22T12:24:02.9198602-05:00","level":"INFO","msg":"handler: started","stream_id":"lguj0sn6"}
+{"time":"2024-11-22T12:24:03.2830171-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-22T12:24:03.5732398-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-22T12:24:06.4124655-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-22T12:24:06.4141549-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-22T12:24:08.5958729-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-22T12:24:08.6946671-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-22T12:24:08.6960794-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-22T12:24:09.704095-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.9371989}],"total_operations":1}}
+{"time":"2024-11-22T12:24:10.0765234-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-22T12:24:11.2220075-05:00","level":"INFO","msg":"stream: closing","id":"lguj0sn6"}
+{"time":"2024-11-22T12:24:11.2220075-05:00","level":"INFO","msg":"handler: closed","stream_id":"lguj0sn6"}
+{"time":"2024-11-22T12:24:11.2220075-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lguj0sn6"}
+{"time":"2024-11-22T12:24:11.2220075-05:00","level":"INFO","msg":"sender: closed","stream_id":"lguj0sn6"}
+{"time":"2024-11-22T12:24:11.2220075-05:00","level":"INFO","msg":"stream: closed","id":"lguj0sn6"}

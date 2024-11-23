@@ -1,0 +1,19 @@
+{"time":"2024-11-22T20:56:28.3427751-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-22T20:56:28.3427751-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\hicha\\OneDrive\\Bureau\\IFT6358\\wandb\\run-20241122_205628-n6nqmw6l\\logs\\debug-core.log"}
+{"time":"2024-11-22T20:56:28.8268632-05:00","level":"INFO","msg":"created new stream","id":"n6nqmw6l"}
+{"time":"2024-11-22T20:56:28.8268632-05:00","level":"INFO","msg":"stream: started","id":"n6nqmw6l"}
+{"time":"2024-11-22T20:56:28.8268632-05:00","level":"INFO","msg":"handler: started","stream_id":"n6nqmw6l"}
+{"time":"2024-11-22T20:56:28.8268632-05:00","level":"INFO","msg":"sender: started","stream_id":"n6nqmw6l"}
+{"time":"2024-11-22T20:56:28.8268632-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"n6nqmw6l"}
+{"time":"2024-11-22T20:56:29.0092262-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-22T20:56:31.9752542-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-22T20:59:25.6163423-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-22T20:59:25.6398241-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-22T20:59:25.6403695-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-22T20:59:26.6462009-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.8233587}],"total_operations":1}}
+{"time":"2024-11-22T20:59:26.9859298-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-22T20:59:28.1152057-05:00","level":"INFO","msg":"stream: closing","id":"n6nqmw6l"}
+{"time":"2024-11-22T20:59:28.1152057-05:00","level":"INFO","msg":"handler: closed","stream_id":"n6nqmw6l"}
+{"time":"2024-11-22T20:59:28.1152057-05:00","level":"INFO","msg":"sender: closed","stream_id":"n6nqmw6l"}
+{"time":"2024-11-22T20:59:28.1152057-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"n6nqmw6l"}
+{"time":"2024-11-22T20:59:28.1152057-05:00","level":"INFO","msg":"stream: closed","id":"n6nqmw6l"}

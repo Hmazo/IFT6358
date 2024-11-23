@@ -1,0 +1,29 @@
+c:\Users\hicha\AppData\Local\Programs\Python\Python310\lib\site-packages\pytorch_tabnet\abstract_model.py:82: UserWarning: Device used : cpu
+  warnings.warn(f"Device used : {self.device}")
+c:\Users\hicha\AppData\Local\Programs\Python\Python310\lib\site-packages\pytorch_tabnet\abstract_model.py:82: UserWarning: Device used : cpu
+  warnings.warn(f"Device used : {self.device}")
+epoch 0  | loss: 0.17642 | validation_auc: 0.8156  | validation_accuracy: 0.95014 | validation_logloss: 0.16577 |  0:01:08s
+epoch 1  | loss: 0.16737 | validation_auc: 0.82583 | validation_accuracy: 0.9503  | validation_logloss: 0.16377 |  0:02:16s
+epoch 2  | loss: 0.1658  | validation_auc: 0.82686 | validation_accuracy: 0.95008 | validation_logloss: 0.16263 |  0:03:25s
+epoch 3  | loss: 0.16513 | validation_auc: 0.82706 | validation_accuracy: 0.95032 | validation_logloss: 0.16228 |  0:04:35s
+epoch 4  | loss: 0.16471 | validation_auc: 0.82809 | validation_accuracy: 0.95026 | validation_logloss: 0.16212 |  0:05:59s
+epoch 5  | loss: 0.16436 | validation_auc: 0.82936 | validation_accuracy: 0.95022 | validation_logloss: 0.16273 |  0:07:23s
+epoch 6  | loss: 0.16447 | validation_auc: 0.82977 | validation_accuracy: 0.95023 | validation_logloss: 0.16248 |  0:08:47s
+epoch 7  | loss: 0.16383 | validation_auc: 0.82726 | validation_accuracy: 0.95021 | validation_logloss: 0.16617 |  0:10:07s
+epoch 8  | loss: 0.16376 | validation_auc: 0.82858 | validation_accuracy: 0.95027 | validation_logloss: 0.16247 |  0:11:32s
+epoch 9  | loss: 0.16383 | validation_auc: 0.83118 | validation_accuracy: 0.95001 | validation_logloss: 0.16134 |  0:12:47s
+epoch 10 | loss: 0.1628  | validation_auc: 0.83243 | validation_accuracy: 0.94929 | validation_logloss: 0.16146 |  0:13:58s
+epoch 11 | loss: 0.16295 | validation_auc: 0.83283 | validation_accuracy: 0.95009 | validation_logloss: 0.16869 |  0:15:09s
+epoch 12 | loss: 0.1624  | validation_auc: 0.83227 | validation_accuracy: 0.94968 | validation_logloss: 0.16111 |  0:16:21s
+epoch 13 | loss: 0.16241 | validation_auc: 0.83379 | validation_accuracy: 0.94973 | validation_logloss: 0.1604  |  0:17:33s
+epoch 14 | loss: 0.16207 | validation_auc: 0.83333 | validation_accuracy: 0.94978 | validation_logloss: 0.16154 |  0:18:44s
+epoch 15 | loss: 0.1621  | validation_auc: 0.83011 | validation_accuracy: 0.94929 | validation_logloss: 0.16334 |  0:19:55s
+epoch 16 | loss: 0.16214 | validation_auc: 0.83181 | validation_accuracy: 0.9503  | validation_logloss: 0.16489 |  0:21:07s
+epoch 17 | loss: 0.16131 | validation_auc: 0.83306 | validation_accuracy: 0.95031 | validation_logloss: 0.16071 |  0:22:19s
+epoch 18 | loss: 0.1614  | validation_auc: 0.83327 | validation_accuracy: 0.95032 | validation_logloss: 0.16092 |  0:23:32s
+
+Early stopping occurred at epoch 18 with best_epoch = 13 and best_validation_logloss = 0.1604
+c:\Users\hicha\AppData\Local\Programs\Python\Python310\lib\site-packages\pytorch_tabnet\callbacks.py:172: UserWarning: Best weights from best epoch are automatically used!
+  warnings.warn(wrn_msg)
+Successfully saved model at Models/tabnet.zip.zip
+Successfully saved model at Models/tabnet.zip

@@ -1,0 +1,159 @@
+Loading artifact: distance_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model.pkl:v1': ['distance_model.pkl.pkl']
+Loading artifact: angle_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'angle_model.pkl:v1': ['angle_model.pkl.pkl']
+Loading artifact: combined_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'combined_model.pkl:v1': ['combined_model.pkl.pkl']
+Loading artifact: Best_XGBoost_Q5_2:v0...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Loading artifact: lightgbm_model:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+c:\Users\hicha\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\base.py:376: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.3.2 when using version 1.5.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Loading artifact: distance_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model.pkl:v1': ['distance_model.pkl.pkl']
+Loading artifact: angle_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'angle_model.pkl:v1': ['angle_model.pkl.pkl']
+Loading artifact: combined_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'combined_model.pkl:v1': ['combined_model.pkl.pkl']
+Loading artifact: Best_XGBoost_Q5_2:v0...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Loading artifact: lightgbm_model:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+Loading artifact: distance_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model.pkl:v1': ['distance_model.pkl.pkl']
+Renamed distance_model.pkl.pkl to distance_model.pkl
+Updated files in artifact 'distance_model.pkl:v1': ['distance_model.pkl']
+Successfully loaded distance_model
+Loading artifact: angle_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'angle_model.pkl:v1': ['angle_model.pkl.pkl']
+Renamed angle_model.pkl.pkl to angle_model.pkl
+Updated files in artifact 'angle_model.pkl:v1': ['angle_model.pkl']
+Successfully loaded angle_model
+Loading artifact: combined_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'combined_model.pkl:v1': ['combined_model.pkl.pkl']
+Renamed combined_model.pkl.pkl to combined_model.pkl
+Updated files in artifact 'combined_model.pkl:v1': ['combined_model.pkl']
+Successfully loaded combined_model
+Loading artifact: Best_XGBoost_Q5_2:v0...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Updated files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Loading artifact: lightgbm_model:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+Updated files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+Loading artifact: distance_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model.pkl:v1': ['distance_model.pkl', 'distance_model.pkl.pkl']
+Attempting to load logistic regression model from: c:\Users\hicha\OneDrive\Bureau\IFT6358\artifacts\distance_model.pkl-v1\distance_model.pkl
+Error loading model distance_model: name 'LogisticRegression' is not defined
+Loading artifact: angle_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'angle_model.pkl:v1': ['angle_model.pkl', 'angle_model.pkl.pkl']
+Attempting to load logistic regression model from: c:\Users\hicha\OneDrive\Bureau\IFT6358\artifacts\angle_model.pkl-v1\angle_model.pkl
+Error loading model angle_model: name 'LogisticRegression' is not defined
+Loading artifact: combined_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'combined_model.pkl:v1': ['combined_model.pkl', 'combined_model.pkl.pkl']
+Attempting to load logistic regression model from: c:\Users\hicha\OneDrive\Bureau\IFT6358\artifacts\combined_model.pkl-v1\combined_model.pkl
+Error loading model combined_model: name 'LogisticRegression' is not defined
+Loading artifact: Best_XGBoost_Q5_2:v0...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Loading artifact: lightgbm_model:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+Model 'distance_model' failed to load.
+Model 'angle_model' failed to load.
+Model 'combined_model' failed to load.
+Model 'XGBoost' loaded successfully: <class 'xgboost.core.Booster'>
+Model 'LightGBM' loaded successfully: <class 'lightgbm.sklearn.LGBMClassifier'>
+Loading artifact: distance_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model.pkl:v1': ['distance_model.pkl', 'distance_model.pkl.pkl']
+Attempting to load logistic regression model from: c:\Users\hicha\OneDrive\Bureau\IFT6358\artifacts\distance_model.pkl-v1\distance_model.pkl
+Error loading model distance_model: Loaded object is not a LogisticRegression model for distance_model.
+Loading artifact: angle_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'angle_model.pkl:v1': ['angle_model.pkl', 'angle_model.pkl.pkl']
+Attempting to load logistic regression model from: c:\Users\hicha\OneDrive\Bureau\IFT6358\artifacts\angle_model.pkl-v1\angle_model.pkl
+Error loading model angle_model: Loaded object is not a LogisticRegression model for angle_model.
+Loading artifact: combined_model.pkl:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'combined_model.pkl:v1': ['combined_model.pkl', 'combined_model.pkl.pkl']
+Attempting to load logistic regression model from: c:\Users\hicha\OneDrive\Bureau\IFT6358\artifacts\combined_model.pkl-v1\combined_model.pkl
+Error loading model combined_model: Loaded object is not a LogisticRegression model for combined_model.
+Loading artifact: Best_XGBoost_Q5_2:v0...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Loading artifact: lightgbm_model:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+Model 'distance_model' failed to load.
+Model 'angle_model' failed to load.
+Model 'combined_model' failed to load.
+Model 'XGBoost' loaded successfully: <class 'xgboost.core.Booster'>
+Model 'LightGBM' loaded successfully: <class 'lightgbm.sklearn.LGBMClassifier'>
+<class 'str'>
+distance
+Loading artifact: distance_model.pkl:v2...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model.pkl:v2': ['distance_model.pkl.pkl']
+Attempting to load logistic regression model from: c:\Users\hicha\OneDrive\Bureau\IFT6358\artifacts\distance_model.pkl-v2\distance_model.pkl.pkl
+Error loading model distance_model: Loaded object is not a LogisticRegression model for distance_model.
+Loading artifact: angle_model.pkl:v2...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'angle_model.pkl:v2': ['angle_model.pkl.pkl']
+Attempting to load logistic regression model from: c:\Users\hicha\OneDrive\Bureau\IFT6358\artifacts\angle_model.pkl-v2\angle_model.pkl.pkl
+Error loading model angle_model: Loaded object is not a LogisticRegression model for angle_model.
+Loading artifact: combined_model.pkl:v2...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'combined_model.pkl:v2': ['combined_model.pkl.pkl']
+Attempting to load logistic regression model from: c:\Users\hicha\OneDrive\Bureau\IFT6358\artifacts\combined_model.pkl-v2\combined_model.pkl.pkl
+Error loading model combined_model: Loaded object is not a LogisticRegression model for combined_model.
+Loading artifact: Best_XGBoost_Q5_2:v0...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Loading artifact: lightgbm_model:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+Model 'distance_model' failed to load.
+Model 'angle_model' failed to load.
+Model 'combined_model' failed to load.
+Model 'XGBoost' loaded successfully: <class 'xgboost.core.Booster'>
+Model 'LightGBM' loaded successfully: <class 'lightgbm.sklearn.LGBMClassifier'>
+Loading artifact: distance_model.pkl:v2...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'distance_model.pkl:v2': ['distance_model.pkl.pkl']
+Loading artifact: angle_model.pkl:v2...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'angle_model.pkl:v2': ['angle_model.pkl.pkl']
+Loading artifact: combined_model.pkl:v2...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'combined_model.pkl:v2': ['combined_model.pkl.pkl']
+Loading artifact: Best_XGBoost_Q5_2:v0...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'Best_XGBoost_Q5_2:v0': ['best_xgboost_q5_2.json']
+Loading artifact: lightgbm_model:v1...
+wandb:   1 of 1 files downloaded.
+Files in artifact 'lightgbm_model:v1': ['lightgbm_model.pkl']
+wandb: WARNING Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+Loading artifact: distance_model.pkl:v3...
+wandb: ERROR Error while calling W&B API: failed to find run IFT6758.2024-A/u5yyjlws (<Response [404]>)
+Loading artifact: distance_model.pkl:v3...
+wandb: ERROR Error while calling W&B API: failed to find run IFT6758.2024-A/u5yyjlws (<Response [404]>)

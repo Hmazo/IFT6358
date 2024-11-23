@@ -1,0 +1,21 @@
+{"time":"2024-11-22T12:29:28.416954-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-22T12:29:28.416954-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\hicha\\OneDrive\\Bureau\\IFT6358\\wandb\\run-20241122_122928-ntycr0sl\\logs\\debug-core.log"}
+{"time":"2024-11-22T12:29:28.5373035-05:00","level":"INFO","msg":"created new stream","id":"ntycr0sl"}
+{"time":"2024-11-22T12:29:28.5373035-05:00","level":"INFO","msg":"stream: started","id":"ntycr0sl"}
+{"time":"2024-11-22T12:29:28.5373035-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"ntycr0sl"}
+{"time":"2024-11-22T12:29:28.5373035-05:00","level":"INFO","msg":"sender: started","stream_id":"ntycr0sl"}
+{"time":"2024-11-22T12:29:28.5373035-05:00","level":"INFO","msg":"handler: started","stream_id":"ntycr0sl"}
+{"time":"2024-11-22T12:29:28.7419276-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-22T12:29:28.9986751-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-22T12:29:30.8307066-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-22T12:29:30.834239-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-22T12:29:33.1159148-05:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-22T12:29:33.1899574-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-22T12:29:33.1903726-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-22T12:29:33.6236207-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-22T12:29:33.7391217-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-22T12:29:34.7628389-05:00","level":"INFO","msg":"stream: closing","id":"ntycr0sl"}
+{"time":"2024-11-22T12:29:34.7628389-05:00","level":"INFO","msg":"handler: closed","stream_id":"ntycr0sl"}
+{"time":"2024-11-22T12:29:34.7628389-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ntycr0sl"}
+{"time":"2024-11-22T12:29:34.7628389-05:00","level":"INFO","msg":"sender: closed","stream_id":"ntycr0sl"}
+{"time":"2024-11-22T12:29:34.7628389-05:00","level":"INFO","msg":"stream: closed","id":"ntycr0sl"}
