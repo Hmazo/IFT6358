@@ -1,0 +1,11 @@
+{"time":"2024-11-20T21:21:05.2468924-05:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-20T21:21:05.2468924-05:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\vince\\OneDrive\\Documents\\GitHub\\IFT6358\\wandb\\run-20241120_212105-o9kicx0w\\logs\\debug-core.log"}
+{"time":"2024-11-20T21:21:06.0706607-05:00","level":"INFO","msg":"created new stream","id":"o9kicx0w"}
+{"time":"2024-11-20T21:21:06.071208-05:00","level":"INFO","msg":"stream: started","id":"o9kicx0w"}
+{"time":"2024-11-20T21:21:06.0717441-05:00","level":"INFO","msg":"sender: started","stream_id":"o9kicx0w"}
+{"time":"2024-11-20T21:21:06.0722799-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"o9kicx0w"}}
+{"time":"2024-11-20T21:21:06.0717441-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"o9kicx0w"}}
+{"time":"2024-11-20T21:21:06.3844185-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-20T21:41:57.6635777-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/hicham-mazouzi-university-of-montreal/IFT6758.2024-A/o9kicx0w/file_stream\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2024-11-20T21:46:46.7596109-05:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-20T23:13:40.2550679-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.10.201:59465->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
