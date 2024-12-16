@@ -1,0 +1,4 @@
+INFO:app:WandB initialized successfully.
+INFO:app:Le modèle combined_model (alias latest) a été téléchargé avec succès depuis WandB.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 420-899-534

@@ -1,0 +1,60 @@
+2024-12-16 14:22:37,043 INFO    MainThread:18688 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-12-16 14:22:37,043 INFO    MainThread:18688 [wandb_setup.py:_flush():79] Configure stats pid to 18688
+2024-12-16 14:22:37,043 INFO    MainThread:18688 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Administrator\.config\wandb\settings
+2024-12-16 14:22:37,043 INFO    MainThread:18688 [wandb_setup.py:_flush():79] Loading settings from E:\GitHub Repository\IFT6358\Milestone_3\wandb\settings
+2024-12-16 14:22:37,043 WARNING MainThread:18688 [wandb_setup.py:_flush():79] Unknown environment variable: WANDB_SERVICE
+2024-12-16 14:22:37,044 INFO    MainThread:18688 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-12-16 14:22:37,044 INFO    MainThread:18688 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'Milestone_3\\app.py', 'program_abspath': 'E:\\GitHub Repository\\IFT6358\\Milestone_3\\app.py', 'program': 'E:\\GitHub Repository\\IFT6358\\Milestone_3\\app.py'}
+2024-12-16 14:22:37,044 INFO    MainThread:18688 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-16 14:22:37,044 INFO    MainThread:18688 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-16 14:22:37,044 INFO    MainThread:18688 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-16 14:22:37,044 INFO    MainThread:18688 [wandb_init.py:_log_setup():534] Logging user logs to E:\GitHub Repository\IFT6358\Milestone_3\wandb\run-20241216_142237-bxuwbogd\logs\debug.log
+2024-12-16 14:22:37,044 INFO    MainThread:18688 [wandb_init.py:_log_setup():535] Logging internal logs to E:\GitHub Repository\IFT6358\Milestone_3\wandb\run-20241216_142237-bxuwbogd\logs\debug-internal.log
+2024-12-16 14:22:37,044 INFO    MainThread:18688 [wandb_init.py:init():621] calling init triggers
+2024-12-16 14:22:37,044 INFO    MainThread:18688 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-12-16 14:22:37,044 INFO    MainThread:18688 [wandb_init.py:init():671] starting backend
+2024-12-16 14:22:37,044 INFO    MainThread:18688 [wandb_init.py:init():675] sending inform_init request
+2024-12-16 14:22:37,049 INFO    MainThread:18688 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-12-16 14:22:37,049 INFO    MainThread:18688 [wandb_init.py:init():688] backend started and connected
+2024-12-16 14:22:37,059 INFO    MainThread:18688 [wandb_init.py:init():783] updated telemetry
+2024-12-16 14:22:37,086 INFO    MainThread:18688 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-12-16 14:22:37,348 INFO    MainThread:18688 [wandb_init.py:init():867] starting run threads in backend
+2024-12-16 14:22:37,469 WARNING MainThread:18688 [wandb_init.py:init():1260] interrupted
+Traceback (most recent call last):
+  File "D:\python2\Lib\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "D:\python2\Lib\site-packages\wandb\sdk\wandb_init.py", line 910, in init
+    run._on_start()
+  File "D:\python2\Lib\site-packages\wandb\sdk\wandb_run.py", line 2503, in _on_start
+    self._backend.interface.publish_python_packages(working_set())
+  File "D:\python2\Lib\site-packages\wandb\sdk\interface\interface.py", line 301, in publish_python_packages
+    for pkg in working_set:
+  File "D:\python2\Lib\site-packages\wandb\util.py", line 1900, in working_set
+    yield InstalledDistribution(key=d.metadata["Name"], version=d.version)
+                                                                ^^^^^^^^^
+  File "D:\python2\Lib\importlib\metadata\__init__.py", line 467, in version
+    return self.metadata['Version']
+           ^^^^^^^^^^^^^
+  File "D:\python2\Lib\importlib\metadata\__init__.py", line 452, in metadata
+    return _adapters.Message(email.message_from_string(text))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python2\Lib\email\__init__.py", line 37, in message_from_string
+    return Parser(*args, **kws).parsestr(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python2\Lib\email\parser.py", line 64, in parsestr
+    return self.parse(StringIO(text), headersonly=headersonly)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python2\Lib\email\parser.py", line 53, in parse
+    feedparser.feed(data)
+  File "D:\python2\Lib\email\feedparser.py", line 174, in feed
+    self._call_parse()
+  File "D:\python2\Lib\email\feedparser.py", line 178, in _call_parse
+    self._parse()
+  File "D:\python2\Lib\email\feedparser.py", line 222, in _parsegen
+    for line in self._input:
+  File "D:\python2\Lib\email\feedparser.py", line 127, in __next__
+    def __next__(self):
+    
+KeyboardInterrupt

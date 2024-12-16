@@ -1,0 +1,16 @@
+{"time":"2024-12-15T23:15:13.2353556-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-12-15T23:15:13.2354334-05:00","level":"INFO","msg":"created symlink","path":"E:\\GitHub Repository\\IFT6358\\Milestone 3\\wandb\\run-20241215_231513-fsptut4y\\logs\\debug-core.log"}
+{"time":"2024-12-15T23:15:13.3442164-05:00","level":"INFO","msg":"created new stream","id":"fsptut4y"}
+{"time":"2024-12-15T23:15:13.3442164-05:00","level":"INFO","msg":"stream: started","id":"fsptut4y"}
+{"time":"2024-12-15T23:15:13.3442164-05:00","level":"INFO","msg":"sender: started","stream_id":"fsptut4y"}
+{"time":"2024-12-15T23:15:13.3442164-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fsptut4y"}}
+{"time":"2024-12-15T23:15:13.3442164-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"fsptut4y"}}
+{"time":"2024-12-15T23:15:13.5410127-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-15T23:15:20.6198193-05:00","level":"INFO","msg":"stream: closing","id":"fsptut4y"}
+{"time":"2024-12-15T23:15:20.6198193-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-15T23:15:20.6203256-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-15T23:15:21.7838034-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-15T23:15:21.9133777-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"fsptut4y"}}
+{"time":"2024-12-15T23:15:21.9133777-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"fsptut4y"}}
+{"time":"2024-12-15T23:15:21.9133777-05:00","level":"INFO","msg":"sender: closed","stream_id":"fsptut4y"}
+{"time":"2024-12-15T23:15:21.913446-05:00","level":"INFO","msg":"stream: closed","id":"fsptut4y"}

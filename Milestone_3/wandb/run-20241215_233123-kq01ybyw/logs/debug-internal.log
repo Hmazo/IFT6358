@@ -1,0 +1,18 @@
+{"time":"2024-12-15T23:31:23.0141471-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-12-15T23:31:23.0141471-05:00","level":"INFO","msg":"created symlink","path":"E:\\GitHub Repository\\IFT6358\\Milestone 3\\wandb\\run-20241215_233123-kq01ybyw\\logs\\debug-core.log"}
+{"time":"2024-12-15T23:31:23.1242199-05:00","level":"INFO","msg":"created new stream","id":"kq01ybyw"}
+{"time":"2024-12-15T23:31:23.1242199-05:00","level":"INFO","msg":"stream: started","id":"kq01ybyw"}
+{"time":"2024-12-15T23:31:23.1242199-05:00","level":"INFO","msg":"sender: started","stream_id":"kq01ybyw"}
+{"time":"2024-12-15T23:31:23.1242199-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kq01ybyw"}}
+{"time":"2024-12-15T23:31:23.1242199-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"kq01ybyw"}}
+{"time":"2024-12-15T23:31:23.3159533-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-15T23:32:33.3230375-05:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 1408"}
+{"time":"2024-12-15T23:32:43.3167946-05:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2024-12-15T23:33:16.2627822-05:00","level":"INFO","msg":"stream: closing","id":"kq01ybyw"}
+{"time":"2024-12-15T23:33:16.2627822-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-15T23:33:16.2638803-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-15T23:33:17.6079631-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-15T23:33:17.7277632-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"kq01ybyw"}}
+{"time":"2024-12-15T23:33:17.7277632-05:00","level":"INFO","msg":"sender: closed","stream_id":"kq01ybyw"}
+{"time":"2024-12-15T23:33:17.7277632-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kq01ybyw"}}
+{"time":"2024-12-15T23:33:17.7282717-05:00","level":"INFO","msg":"stream: closed","id":"kq01ybyw"}

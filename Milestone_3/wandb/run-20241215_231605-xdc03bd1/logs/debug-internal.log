@@ -1,0 +1,16 @@
+{"time":"2024-12-15T23:16:05.8205728-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-12-15T23:16:05.8205728-05:00","level":"INFO","msg":"created symlink","path":"E:\\GitHub Repository\\IFT6358\\Milestone 3\\wandb\\run-20241215_231605-xdc03bd1\\logs\\debug-core.log"}
+{"time":"2024-12-15T23:16:05.9347356-05:00","level":"INFO","msg":"created new stream","id":"xdc03bd1"}
+{"time":"2024-12-15T23:16:05.9347356-05:00","level":"INFO","msg":"stream: started","id":"xdc03bd1"}
+{"time":"2024-12-15T23:16:05.9347356-05:00","level":"INFO","msg":"sender: started","stream_id":"xdc03bd1"}
+{"time":"2024-12-15T23:16:05.9347356-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xdc03bd1"}}
+{"time":"2024-12-15T23:16:05.9347356-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"xdc03bd1"}}
+{"time":"2024-12-15T23:16:06.1480316-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-15T23:16:21.1220845-05:00","level":"INFO","msg":"stream: closing","id":"xdc03bd1"}
+{"time":"2024-12-15T23:16:21.1220845-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-15T23:16:21.1225881-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-15T23:16:21.5020585-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-15T23:16:21.6326684-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"xdc03bd1"}}
+{"time":"2024-12-15T23:16:21.6326684-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xdc03bd1"}}
+{"time":"2024-12-15T23:16:21.6326684-05:00","level":"INFO","msg":"sender: closed","stream_id":"xdc03bd1"}
+{"time":"2024-12-15T23:16:21.6326684-05:00","level":"INFO","msg":"stream: closed","id":"xdc03bd1"}

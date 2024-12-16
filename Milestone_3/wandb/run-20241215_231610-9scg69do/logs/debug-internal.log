@@ -1,0 +1,16 @@
+{"time":"2024-12-15T23:16:10.7477337-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-12-15T23:16:10.7477941-05:00","level":"INFO","msg":"created symlink","path":"E:\\GitHub Repository\\IFT6358\\Milestone 3\\wandb\\run-20241215_231610-9scg69do\\logs\\debug-core.log"}
+{"time":"2024-12-15T23:16:10.8557797-05:00","level":"INFO","msg":"created new stream","id":"9scg69do"}
+{"time":"2024-12-15T23:16:10.8557797-05:00","level":"INFO","msg":"stream: started","id":"9scg69do"}
+{"time":"2024-12-15T23:16:10.8557797-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"9scg69do"}}
+{"time":"2024-12-15T23:16:10.8557797-05:00","level":"INFO","msg":"sender: started","stream_id":"9scg69do"}
+{"time":"2024-12-15T23:16:10.8557797-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"9scg69do"}}
+{"time":"2024-12-15T23:16:11.0032896-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-15T23:16:21.1220845-05:00","level":"INFO","msg":"stream: closing","id":"9scg69do"}
+{"time":"2024-12-15T23:16:21.1220845-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-15T23:16:21.1225881-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-15T23:16:21.5405674-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-15T23:16:21.6705518-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"9scg69do"}}
+{"time":"2024-12-15T23:16:21.6705518-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"9scg69do"}}
+{"time":"2024-12-15T23:16:21.6705518-05:00","level":"INFO","msg":"sender: closed","stream_id":"9scg69do"}
+{"time":"2024-12-15T23:16:21.6710563-05:00","level":"INFO","msg":"stream: closed","id":"9scg69do"}
