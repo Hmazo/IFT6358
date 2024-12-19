@@ -1,0 +1,12 @@
+services:
+  milestone3-serving:
+    build:
+      context: .
+      dockerfile: Dockerfile.serving
+    ports:
+      - "5000:5000"
+    environment:
+      - WANDB_API_KEY=${WANDB_API_KEY}  # Reads from env or .env file
+    volumes:
+      - ./artifacts:/code/artifacts
+      - ./wandb:/code/wandb
