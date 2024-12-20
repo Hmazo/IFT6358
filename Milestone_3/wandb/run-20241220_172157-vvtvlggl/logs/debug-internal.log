@@ -1,0 +1,16 @@
+{"time":"2024-12-20T17:21:57.893708-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-12-20T17:21:57.893708-05:00","level":"INFO","msg":"created symlink","path":"E:\\GitHub Repository\\IFT6358\\Milestone_3\\wandb\\run-20241220_172157-vvtvlggl\\logs\\debug-core.log"}
+{"time":"2024-12-20T17:21:58.0053649-05:00","level":"INFO","msg":"created new stream","id":"vvtvlggl"}
+{"time":"2024-12-20T17:21:58.0053649-05:00","level":"INFO","msg":"stream: started","id":"vvtvlggl"}
+{"time":"2024-12-20T17:21:58.0053649-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"vvtvlggl"}}
+{"time":"2024-12-20T17:21:58.0053649-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"vvtvlggl"}}
+{"time":"2024-12-20T17:21:58.0053649-05:00","level":"INFO","msg":"sender: started","stream_id":"vvtvlggl"}
+{"time":"2024-12-20T17:21:58.2416162-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-20T17:23:18.4459564-05:00","level":"INFO","msg":"stream: closing","id":"vvtvlggl"}
+{"time":"2024-12-20T17:23:18.4459564-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-20T17:23:18.4464609-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-20T17:23:18.9989884-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-20T17:23:19.1092415-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"vvtvlggl"}}
+{"time":"2024-12-20T17:23:19.1092415-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"vvtvlggl"}}
+{"time":"2024-12-20T17:23:19.1092415-05:00","level":"INFO","msg":"sender: closed","stream_id":"vvtvlggl"}
+{"time":"2024-12-20T17:23:19.1118156-05:00","level":"INFO","msg":"stream: closed","id":"vvtvlggl"}

@@ -1,0 +1,16 @@
+{"time":"2024-12-20T17:22:03.1241542-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-12-20T17:22:03.1241542-05:00","level":"INFO","msg":"created symlink","path":"E:\\GitHub Repository\\IFT6358\\Milestone_3\\wandb\\run-20241220_172203-zd1scrk5\\logs\\debug-core.log"}
+{"time":"2024-12-20T17:22:03.2330451-05:00","level":"INFO","msg":"created new stream","id":"zd1scrk5"}
+{"time":"2024-12-20T17:22:03.2336032-05:00","level":"INFO","msg":"stream: started","id":"zd1scrk5"}
+{"time":"2024-12-20T17:22:03.2336759-05:00","level":"INFO","msg":"sender: started","stream_id":"zd1scrk5"}
+{"time":"2024-12-20T17:22:03.2336759-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"zd1scrk5"}}
+{"time":"2024-12-20T17:22:03.2336032-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"zd1scrk5"}}
+{"time":"2024-12-20T17:22:03.4813741-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-20T17:23:18.4459564-05:00","level":"INFO","msg":"stream: closing","id":"zd1scrk5"}
+{"time":"2024-12-20T17:23:18.4459564-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-20T17:23:18.4464609-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-20T17:23:19.7538245-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-20T17:23:19.8664514-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"zd1scrk5"}}
+{"time":"2024-12-20T17:23:19.8664514-05:00","level":"INFO","msg":"sender: closed","stream_id":"zd1scrk5"}
+{"time":"2024-12-20T17:23:19.8664514-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"zd1scrk5"}}
+{"time":"2024-12-20T17:23:19.8664514-05:00","level":"INFO","msg":"stream: closed","id":"zd1scrk5"}
