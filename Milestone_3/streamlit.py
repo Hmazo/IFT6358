@@ -11,11 +11,6 @@ parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
 sys.path.append(parent_dir)
 
 import streamlit as st
-import pandas as pd
-import numpy as np
-import requests
-import json
-from pathlib import Path
 from serving_client import ServingClient
 from game_client import GameClient
 
@@ -27,8 +22,8 @@ st.title("NHL Game Analysis")
 # Model configuration and download (sidebar)
 with st.sidebar:
     st.header("Configure Model")
-    workspace = st.text_input("Enter Workspace", "a10-ift6758-milestone-2")
-    model_name = st.text_input("Enter Model Name", "model_distance")
+    workspace = st.text_input("Enter Workspace", "a10-ift6758-milestone-3")
+    model_name = st.selectbox("Enter Model Name", ["choose a model","distance_model", "angle_model", "combined_model"])
     model_version = st.text_input("Enter Model Version", "latest")
     if st.button("Download Model"):
         response = serving_client.download_registry_model(workspace, model_name, model_version)
