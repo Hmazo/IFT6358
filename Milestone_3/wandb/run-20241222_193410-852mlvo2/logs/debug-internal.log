@@ -1,0 +1,10 @@
+{"time":"2024-12-22T19:34:10.251296-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-12-22T19:34:10.251296-05:00","level":"INFO","msg":"created symlink","path":"E:\\GitHub Repository\\IFT6358\\Milestone_3\\wandb\\run-20241222_193410-852mlvo2\\logs\\debug-core.log"}
+{"time":"2024-12-22T19:34:10.3623512-05:00","level":"INFO","msg":"created new stream","id":"852mlvo2"}
+{"time":"2024-12-22T19:34:10.3623512-05:00","level":"INFO","msg":"stream: started","id":"852mlvo2"}
+{"time":"2024-12-22T19:34:10.3623512-05:00","level":"INFO","msg":"sender: started","stream_id":"852mlvo2"}
+{"time":"2024-12-22T19:34:10.3623512-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"852mlvo2"}}
+{"time":"2024-12-22T19:34:10.3623512-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"852mlvo2"}}
+{"time":"2024-12-22T19:34:10.7447395-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-22T19:35:00.7452809-05:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2024-12-22T19:35:00.7510429-05:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 22028"}

@@ -1,0 +1,2 @@
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x000002C1FA67C860>

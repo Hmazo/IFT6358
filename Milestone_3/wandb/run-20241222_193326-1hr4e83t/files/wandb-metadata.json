@@ -1,0 +1,43 @@
+{
+  "os": "Windows-11-10.0.22631-SP0",
+  "python": "3.12.1",
+  "startedAt": "2024-12-23T00:33:26.409619Z",
+  "program": "E:\\GitHub Repository\\IFT6358\\Milestone_3\\app.py",
+  "codePath": "Milestone_3\\app.py",
+  "git": {
+    "remote": "https://github.com/Hmazo/IFT6358---Equipe-10.git",
+    "commit": "73093e76ccf58a91a61804e01679564171e43e5c"
+  },
+  "email": "thierry.arnold.ntieupma@umontreal.ca",
+  "root": "E:\\GitHub Repository\\IFT6358\\Milestone_3",
+  "host": "DESKTOP-ET4DQ8L",
+  "username": "Administrator",
+  "executable": "D:\\python2\\python.exe",
+  "codePathLocal": "app.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce GTX 1060",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "201343700992",
+      "used": "55035482112"
+    }
+  },
+  "memory": {
+    "total": "17041641472"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1060",
+      "memoryTotal": "6442450944",
+      "cudaCores": 1280,
+      "architecture": "Pascal"
+    }
+  ],
+  "cudaVersion": "12.7"
+}

@@ -96,10 +96,13 @@ def extract_shots_with_previous_and_skater_info(game_data, season):
         'time': 0      # Game seconds at the last event
     }
 
-    home_team = game_data['homeTeam']['name']['default']
-    away_team = game_data['awayTeam']['name']['default']
+    home_team = game_data['homeTeam']['commonName']['default']
+    away_team = game_data['awayTeam']['commonName']['default']
+
+
     home_team_id = game_data['homeTeam']['id']
     away_team_id = game_data['awayTeam']['id']
+
 
     for event in game_data['plays']:
         event_type = event['typeDescKey']
@@ -156,6 +159,7 @@ def extract_shots_with_previous_and_skater_info(game_data, season):
                 'attacking_team_id': attacking_team_id,
                 'attacking_team_name': attacking_team_name,
                 'home_team': home_team,
+                'away_team': away_team,
                 'is_goal': 1 if event_type == "goal" else 0,          # Add is_goal column
             }
             shots_data.append(shot_info)
