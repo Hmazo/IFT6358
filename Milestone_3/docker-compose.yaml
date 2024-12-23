@@ -1,12 +1,26 @@
+version: '3.8'
+
 services:
-  milestone3-serving:
+  serving:
     build:
       context: .
       dockerfile: Dockerfile.serving
     ports:
       - "5000:5000"
-    environment:
-      - WANDB_API_KEY=${WANDB_API_KEY} 
-    volumes:
-      - ./artifacts:/code/artifacts
-      - ./wandb:/code/wandb
+    networks:
+      - app-network
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8501:8501"
+    networks:
+      - app-network
+    depends_on:
+      - serving
+
+networks:
+  app-network:
+    driver: bridge
