@@ -8,3 +8,4 @@
 {"time":"2024-12-22T19:35:02.9494082-05:00","level":"INFO","msg":"Starting system monitor"}
 {"time":"2024-12-22T19:35:52.9497391-05:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
 {"time":"2024-12-22T19:35:52.9553035-05:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 18388"}
+{"time":"2024-12-22T19:47:42.9496875-05:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:57627: connectex: No connection could be made because the target machine actively refused it.\""}

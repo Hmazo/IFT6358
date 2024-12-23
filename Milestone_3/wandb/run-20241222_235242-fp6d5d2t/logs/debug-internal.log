@@ -1,0 +1,18 @@
+{"time":"2024-12-22T23:52:42.4447136-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-12-22T23:52:42.4447136-05:00","level":"INFO","msg":"created symlink","path":"E:\\GitHub Repository\\IFT6358\\Milestone_3\\wandb\\run-20241222_235242-fp6d5d2t\\logs\\debug-core.log"}
+{"time":"2024-12-22T23:52:42.5539771-05:00","level":"INFO","msg":"created new stream","id":"fp6d5d2t"}
+{"time":"2024-12-22T23:52:42.5539771-05:00","level":"INFO","msg":"stream: started","id":"fp6d5d2t"}
+{"time":"2024-12-22T23:52:42.5539771-05:00","level":"INFO","msg":"sender: started","stream_id":"fp6d5d2t"}
+{"time":"2024-12-22T23:52:42.5539771-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fp6d5d2t"}}
+{"time":"2024-12-22T23:52:42.5539771-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"fp6d5d2t"}}
+{"time":"2024-12-22T23:52:42.7515511-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-22T23:54:12.7570702-05:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 13992"}
+{"time":"2024-12-22T23:54:22.7525943-05:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2024-12-23T00:57:40.2061019-05:00","level":"INFO","msg":"stream: closing","id":"fp6d5d2t"}
+{"time":"2024-12-23T00:57:40.2073137-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-23T00:57:40.2172412-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-23T00:57:42.0828949-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-23T00:57:42.2508751-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"fp6d5d2t"}}
+{"time":"2024-12-23T00:57:42.2508751-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"fp6d5d2t"}}
+{"time":"2024-12-23T00:57:42.2508751-05:00","level":"INFO","msg":"sender: closed","stream_id":"fp6d5d2t"}
+{"time":"2024-12-23T00:57:42.2513831-05:00","level":"INFO","msg":"stream: closed","id":"fp6d5d2t"}

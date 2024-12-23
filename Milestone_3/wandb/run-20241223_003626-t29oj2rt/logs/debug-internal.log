@@ -1,0 +1,18 @@
+{"time":"2024-12-23T00:36:26.4493099-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-12-23T00:36:26.4493099-05:00","level":"INFO","msg":"created symlink","path":"E:\\GitHub Repository\\IFT6358\\Milestone_3\\wandb\\run-20241223_003626-t29oj2rt\\logs\\debug-core.log"}
+{"time":"2024-12-23T00:36:26.5586684-05:00","level":"INFO","msg":"created new stream","id":"t29oj2rt"}
+{"time":"2024-12-23T00:36:26.5586684-05:00","level":"INFO","msg":"stream: started","id":"t29oj2rt"}
+{"time":"2024-12-23T00:36:26.5586684-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"t29oj2rt"}}
+{"time":"2024-12-23T00:36:26.5586684-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"t29oj2rt"}}
+{"time":"2024-12-23T00:36:26.5586684-05:00","level":"INFO","msg":"sender: started","stream_id":"t29oj2rt"}
+{"time":"2024-12-23T00:36:26.7548532-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-23T00:37:06.7557909-05:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2024-12-23T00:37:06.7634961-05:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 12596"}
+{"time":"2024-12-23T00:57:40.2061019-05:00","level":"INFO","msg":"stream: closing","id":"t29oj2rt"}
+{"time":"2024-12-23T00:57:40.2066583-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-23T00:57:40.2304397-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-23T00:57:43.3563702-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-23T00:57:43.4638201-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"t29oj2rt"}}
+{"time":"2024-12-23T00:57:43.4638201-05:00","level":"INFO","msg":"sender: closed","stream_id":"t29oj2rt"}
+{"time":"2024-12-23T00:57:43.4638201-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"t29oj2rt"}}
+{"time":"2024-12-23T00:57:43.4638201-05:00","level":"INFO","msg":"stream: closed","id":"t29oj2rt"}

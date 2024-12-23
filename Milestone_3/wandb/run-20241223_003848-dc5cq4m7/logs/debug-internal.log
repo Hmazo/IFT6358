@@ -1,0 +1,16 @@
+{"time":"2024-12-23T00:38:48.4393349-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-12-23T00:38:48.4393349-05:00","level":"INFO","msg":"created symlink","path":"E:\\GitHub Repository\\IFT6358\\Milestone_3\\wandb\\run-20241223_003848-dc5cq4m7\\logs\\debug-core.log"}
+{"time":"2024-12-23T00:38:48.5537253-05:00","level":"INFO","msg":"created new stream","id":"dc5cq4m7"}
+{"time":"2024-12-23T00:38:48.5537253-05:00","level":"INFO","msg":"stream: started","id":"dc5cq4m7"}
+{"time":"2024-12-23T00:38:48.5537253-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"dc5cq4m7"}}
+{"time":"2024-12-23T00:38:48.5537253-05:00","level":"INFO","msg":"sender: started","stream_id":"dc5cq4m7"}
+{"time":"2024-12-23T00:38:48.5537253-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"dc5cq4m7"}}
+{"time":"2024-12-23T00:38:48.7828877-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-23T00:57:40.2061019-05:00","level":"INFO","msg":"stream: closing","id":"dc5cq4m7"}
+{"time":"2024-12-23T00:57:40.2061019-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-23T00:57:40.2073137-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-23T00:57:42.3046403-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-23T00:57:42.4233784-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"dc5cq4m7"}}
+{"time":"2024-12-23T00:57:42.4233784-05:00","level":"INFO","msg":"sender: closed","stream_id":"dc5cq4m7"}
+{"time":"2024-12-23T00:57:42.4233784-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"dc5cq4m7"}}
+{"time":"2024-12-23T00:57:42.4235596-05:00","level":"INFO","msg":"stream: closed","id":"dc5cq4m7"}
